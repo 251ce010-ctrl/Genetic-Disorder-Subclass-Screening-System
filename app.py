@@ -20,8 +20,11 @@ st.set_page_config(
 st.title("🧬 Genetic Disorder Subclass Screening")
 st.write("AI-Based Genetic Disorder Prediction System")
 st.info("Enter the patient details below to get a model prediction.")
+import os
 
-DATASET = "train_genetic_disorders.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET = os.path.join(BASE_DIR, "train_genetic_disorders.csv")
+
 
 FEATURES = [
     "Patient Age",
