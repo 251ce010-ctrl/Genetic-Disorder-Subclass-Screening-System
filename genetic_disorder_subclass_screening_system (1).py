@@ -362,3 +362,4 @@ if "results_df" in st.session_state:
             st.error(f"Prediction failed: {error}")
 else:
     st.info("Click 'Train Linear, Polynomial and RBF SVM' to train and compare the models.")
+
