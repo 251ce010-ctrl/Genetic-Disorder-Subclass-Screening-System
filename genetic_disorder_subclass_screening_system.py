@@ -479,7 +479,7 @@ files.download("svm_model.pkl")
 Step 3.1 – Install Flask
 """
 
-!pip install flask flask-cors
+
 
 """Step 3.2 – Create Flask API file"""
 
